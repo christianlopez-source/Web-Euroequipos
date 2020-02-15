@@ -1,0 +1,19 @@
+.kontakto-form{color:#000000;}
+.kontakto-form .form-control{color:#e5c163; }
+.kontakto-form textarea.form-control{border-bottom:1px solid #e5c163;}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #e5c163;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #e5c163;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #e5c163;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #e5c163;
+}
+.kontakto-form button.submit{ background-color:#e5c163; color:#2c2c2c;}
+.kontakto-form #form-success p{ color:#e5c163 !important;}
+.kontakto-form #form-error p{ color:red !important;}
+.checkbox input[type=checkbox]:checked + label,.checkbox input[type=radio]:checked + label { background-color:#e5c163;}
